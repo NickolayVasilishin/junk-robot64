@@ -12,6 +12,7 @@
 		89CAB3561FC8B0C000E496EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89CAB3551FC8B0C000E496EA /* Assets.xcassets */; };
 		89CAB3591FC8B0C000E496EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CAB3571FC8B0C000E496EA /* LaunchScreen.storyboard */; };
 		89CAB3641FC8B0C000E496EA /* junk_robot64_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CAB3631FC8B0C000E496EA /* junk_robot64_iosTests.swift */; };
+		89CAB3731FC8B30300E496EA /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CAB3721FC8B30300E496EA /* TestVC.swift */; };
 		AD3EDFABCCBA02774AB2E07D /* Pods_junk_robot64_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BFF426E4E829A1E2239A11 /* Pods_junk_robot64_ios.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		89CAB35F1FC8B0C000E496EA /* junk-robot64-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "junk-robot64-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CAB3631FC8B0C000E496EA /* junk_robot64_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = junk_robot64_iosTests.swift; sourceTree = "<group>"; };
 		89CAB3651FC8B0C000E496EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89CAB3721FC8B30300E496EA /* TestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
 		D1BFF426E4E829A1E2239A11 /* Pods_junk_robot64_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_junk_robot64_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -99,8 +101,9 @@
 		89CAB34D1FC8B0C000E496EA /* junk-robot64-ios */ = {
 			isa = PBXGroup;
 			children = (
-				89CAB36F1FC8B17500E496EA /* Supporting Files */,
 				89CAB36E1FC8B16800E496EA /* Resources */,
+				89CAB3701FC8B2C700E496EA /* Sources */,
+				89CAB36F1FC8B17500E496EA /* Supporting Files */,
 			);
 			path = "junk-robot64-ios";
 			sourceTree = "<group>";
@@ -131,6 +134,22 @@
 				89CAB35A1FC8B0C000E496EA /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89CAB3701FC8B2C700E496EA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				89CAB3711FC8B2F200E496EA /* Controllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		89CAB3711FC8B2F200E496EA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				89CAB3721FC8B30300E496EA /* TestVC.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89CAB3731FC8B30300E496EA /* TestVC.swift in Sources */,
 				89CAB34F1FC8B0C000E496EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +471,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/junk-robot64-ios/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "robot64.junk-robot64-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -466,6 +487,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/junk-robot64-ios/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "robot64.junk-robot64-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
