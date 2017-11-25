@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8925F6261FC9E7CE003D39C3 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F6251FC9E7CD003D39C3 /* R.generated.swift */; };
+		8925F6291FC9EC6A003D39C3 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F6281FC9EC6A003D39C3 /* DashboardVC.swift */; };
+		8925F62D1FC9EEDF003D39C3 /* UIColor+MainColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F62C1FC9EEDF003D39C3 /* UIColor+MainColors.swift */; };
+		8925F6301FC9F2B6003D39C3 /* UIImage+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F62F1FC9F2B6003D39C3 /* UIImage+UIColor.swift */; };
+		8925F6341FC9F458003D39C3 /* RootNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F6331FC9F458003D39C3 /* RootNC.swift */; };
 		8962868C1FC8C56100E9D825 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962868B1FC8C56100E9D825 /* NetworkLayer.swift */; };
 		8962868E1FC8C64A00E9D825 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962868D1FC8C64A00E9D825 /* Endpoints.swift */; };
 		89987B3A1FC9E0DC00DF1451 /* RootTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89987B391FC9E0DC00DF1451 /* RootTBC.swift */; };
@@ -32,6 +36,10 @@
 		5B0DEDE5B215075C316C6562 /* Pods-junk-robot64-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-junk-robot64-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-junk-robot64-ios/Pods-junk-robot64-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		80399537AB78032F69695501 /* Pods-junk-robot64-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-junk-robot64-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-junk-robot64-ios/Pods-junk-robot64-ios.release.xcconfig"; sourceTree = "<group>"; };
 		8925F6251FC9E7CD003D39C3 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		8925F6281FC9EC6A003D39C3 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		8925F62C1FC9EEDF003D39C3 /* UIColor+MainColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+MainColors.swift"; sourceTree = "<group>"; };
+		8925F62F1FC9F2B6003D39C3 /* UIImage+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+UIColor.swift"; sourceTree = "<group>"; };
+		8925F6331FC9F458003D39C3 /* RootNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNC.swift; sourceTree = "<group>"; };
 		8962868B1FC8C56100E9D825 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
 		8962868D1FC8C64A00E9D825 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		89987B391FC9E0DC00DF1451 /* RootTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTBC.swift; sourceTree = "<group>"; };
@@ -82,6 +90,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8925F6271FC9EC56003D39C3 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				8925F6281FC9EC6A003D39C3 /* DashboardVC.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		8925F62A1FC9EEBE003D39C3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8925F62B1FC9EEC6003D39C3 /* UIColor */,
+				8925F62E1FC9F299003D39C3 /* UIImage */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8925F62B1FC9EEC6003D39C3 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				8925F62C1FC9EEDF003D39C3 /* UIColor+MainColors.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		8925F62E1FC9F299003D39C3 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				8925F62F1FC9F2B6003D39C3 /* UIImage+UIColor.swift */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
 		896286891FC8C54400E9D825 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +143,7 @@
 		89987B361FC9E09700DF1451 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				8925F6271FC9EC56003D39C3 /* Dashboard */,
 				89987B371FC9E09C00DF1451 /* Root */,
 			);
 			path = Modules;
@@ -110,6 +152,7 @@
 		89987B371FC9E09C00DF1451 /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				8925F6331FC9F458003D39C3 /* RootNC.swift */,
 				89987B391FC9E0DC00DF1451 /* RootTBC.swift */,
 			);
 			path = Root;
@@ -138,6 +181,7 @@
 		89CAB34D1FC8B0C000E496EA /* junk-robot64-ios */ = {
 			isa = PBXGroup;
 			children = (
+				8925F62A1FC9EEBE003D39C3 /* Extension */,
 				89CAB36E1FC8B16800E496EA /* Resources */,
 				89CAB3701FC8B2C700E496EA /* Sources */,
 				89CAB36F1FC8B17500E496EA /* Supporting Files */,
@@ -363,9 +407,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8962868C1FC8C56100E9D825 /* NetworkLayer.swift in Sources */,
+				8925F6301FC9F2B6003D39C3 /* UIImage+UIColor.swift in Sources */,
+				8925F6341FC9F458003D39C3 /* RootNC.swift in Sources */,
+				8925F6291FC9EC6A003D39C3 /* DashboardVC.swift in Sources */,
 				89987B3A1FC9E0DC00DF1451 /* RootTBC.swift in Sources */,
 				8925F6261FC9E7CE003D39C3 /* R.generated.swift in Sources */,
 				8962868E1FC8C64A00E9D825 /* Endpoints.swift in Sources */,
+				8925F62D1FC9EEDF003D39C3 /* UIColor+MainColors.swift in Sources */,
 				89CAB34F1FC8B0C000E496EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

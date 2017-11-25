@@ -10,6 +10,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = RootTBC()
         self.window?.makeKeyAndVisible()
 
+        UINavigationBar.appearance().tintColor = .white
+        UINavigationBar.appearance().titleTextAttributes = [
+            NSAttributedStringKey.foregroundColor: UIColor.white
+        ]
+
         return true
     }
 

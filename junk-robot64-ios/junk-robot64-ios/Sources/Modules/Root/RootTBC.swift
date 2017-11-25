@@ -1,6 +1,6 @@
 import UIKit
 
-class RootTBC: UITabBarController {
+final class RootTBC: UITabBarController {
 
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nil, bundle: nil)
@@ -15,11 +15,14 @@ class RootTBC: UITabBarController {
     }
 
     private func commonInit() {
-        let vcs = [StubVC(tbiImage: R.image.dashboard()!),
-                   StubVC(tbiImage: R.image.stethescope()!),
-                   StubVC(tbiImage: R.image.profile()!)]
+        let vcs = [
+            RootNC(rootViewController: DashboardVC()),
+            StubVC(tbiImage: R.image.stethescope()!),
+            StubVC(tbiImage: R.image.profile()!)
+        ]
 
         self.viewControllers = vcs
+        self.tabBar.tintColor = .mainTintColor
     }
 
 }
