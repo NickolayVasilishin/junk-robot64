@@ -1,0 +1,82 @@
+Person 1
+--------------------------------
+GATEWAYS:
+MQTT-GW-3 (home), 
+MQTT-GW-6 (work)
+
+RELAYS
+beaconsniffer-1 - home presence sensor
+beaconsniffer-99 - work presence sensor
+blesniffer-001 - home temperature relay
+blesniffer-002 - home temperature relay
+blesniffer-024 - work temperature relay
+emfit-001 - home bed sensor
+
+SENSORS
+001252 - Emfit QS bed sensor
+3999-1 - Keyfob presence beacon
+C0:77:0C:9F:60:32 - temp / humi, home, balcony
+C0:70:00:85:7B:E6 - temp / humi, home, bedroom
+D7:A6:7A:7D:D7:2A - temp / humi, home, bathroom
+CF:E0:20:B8:93:48 - temp / humi, home, kitchen
+D6:5C:B7:59:11:65 - temp / humi, work
+
+ADDITIONAL DATA
+Firstbeat sensordata
+
+Person 2
+--------------------------------
+GATEWAY:
+MQTT-GW-2 (home)
+MQTT-GW-6 (work)
+
+RELAYS
+beaconsniffer-021 - home presence sensor
+beaconsniffer-022 - work presence sensor
+blesniffer-023 - home temperature relay
+blesniffer-024 - work temperature relay
+
+SENSORS
+00124f - Emfit QS bed sensor
+3369-9 - Keyfob presence beacon
+EE:03:FC:75:CF:74 - temperature & humidity, home, apartment (bedroom & kitchen)
+D0:20:36:8E:AC:D2 - temperature & humidity, home, balcony
+DC:02:D2:79:99:26 - temperature & humidity, home, bathroom
+D6:5C:B7:59:11:65 - temperature & humidity, work
+70B3D549909E050E - co2 sensor, home, apartment
+
+ADDITIONAL DATA
+Firstbeat sensordata
+
+Person 3
+--------------------------------
+GATEWAY:
+MQTT-GW-1 (home)
+MQTT-GW-5 (work)
+
+RELAYS
+beaconsniffer-011 - home presence sensor
+beaconsniffer-012 - work presence sensor
+blesniffer-013 - home temperature relay
+blesniffer-014 - home temperature relay
+blesniffer-015 - home temperature relay
+blesniffer-016 - work temperature relay
+
+SENSORS
+00124e - Emfit QS bed sensor
+32201-1 - Keyfob presence beacon
+CF:08:0A:3D:31:C7 - temperature & humidity, home, utility room
+DD:1B:0B:44:D1:05 - temperature & humidity, home, bathroom
+DA:72:1C:81:B9:E4 - temperature & humidity, home, living room
+DB:27:F4:E4:9E:70 - temperature & humidity, home, kitchen
+FF:17:97:70:CF:67 - temperature & humidity, home, upstairs staircase
+D6:64:70:52:2B:2D - temperature & humidity, home, bedroom
+CF:1C:63:99:C2:C8 - temperature & humidity, work
+70B3D5499978DD5F - co2 sensor, home, apartment
+
+ADDITIONAL DATA
+Firstbeat sensordata
+
+General sensors
+--------------------------------
+70B3D54998EE19D4 - Light sensor (LoRa)

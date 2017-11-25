@@ -1,0 +1,3 @@
+https://side2datalake-junction-side2-hd.azurehdinsight.net
+junctionuser
+2P0A2sG5cf2

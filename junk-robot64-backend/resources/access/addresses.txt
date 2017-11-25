@@ -1,0 +1,17 @@
+The important addresses for data lake are:
+
+Ambari
+https://side2datalake-junction-side2-hd.azurehdinsight.net/#/login
+
+Jupyter Notebook:
+https://side2datalake-junction-side2-hd.azurehdinsight.net/jupyter
+
+When accessing shared files, you need to use URL format:
+
+adl://junctionmaindls.azuredatalakestore.net/clusters/maindatalake/storage/shaeddataset
+
+When accessing your private files (uploaded by you):
+
+adl:///storage/myfile.txt
+
+Notice the three '/' -characters

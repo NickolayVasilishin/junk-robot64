@@ -1,0 +1,5 @@
+clientId = '50370964-85dc-49c2-a814-04976c5a9425'
+clientSecret = 'fbNVv10iFfEg'
+tenantId = '72f988bf-86f1-41af-91ab-2d7cd011db47'
+adlsAccountName = 'junctionmaindls'
+adlsRoot = 'clusters/side2datalake/storage/'
