@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		891984151FCA1F5C00DE8233 /* MetricCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891984141FCA1F5C00DE8233 /* MetricCell.swift */; };
+		891984171FCA27DD00DE8233 /* Reference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891984161FCA27DD00DE8233 /* Reference.swift */; };
+		891984191FCA281B00DE8233 /* MetricData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891984181FCA281B00DE8233 /* MetricData.swift */; };
 		8925F6261FC9E7CE003D39C3 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F6251FC9E7CD003D39C3 /* R.generated.swift */; };
 		8925F6291FC9EC6A003D39C3 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F6281FC9EC6A003D39C3 /* DashboardVC.swift */; };
 		8925F62D1FC9EEDF003D39C3 /* UIColor+MainColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F62C1FC9EEDF003D39C3 /* UIColor+MainColors.swift */; };
@@ -39,6 +41,8 @@
 		5B0DEDE5B215075C316C6562 /* Pods-junk-robot64-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-junk-robot64-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-junk-robot64-ios/Pods-junk-robot64-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		80399537AB78032F69695501 /* Pods-junk-robot64-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-junk-robot64-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-junk-robot64-ios/Pods-junk-robot64-ios.release.xcconfig"; sourceTree = "<group>"; };
 		891984141FCA1F5C00DE8233 /* MetricCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCell.swift; sourceTree = "<group>"; };
+		891984161FCA27DD00DE8233 /* Reference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reference.swift; sourceTree = "<group>"; };
+		891984181FCA281B00DE8233 /* MetricData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricData.swift; sourceTree = "<group>"; };
 		8925F6251FC9E7CD003D39C3 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		8925F6281FC9EC6A003D39C3 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
 		8925F62C1FC9EEDF003D39C3 /* UIColor+MainColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+MainColors.swift"; sourceTree = "<group>"; };
@@ -167,6 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				8925F63C1FCA0D7E003D39C3 /* Metric.swift */,
+				891984181FCA281B00DE8233 /* MetricData.swift */,
+				891984161FCA27DD00DE8233 /* Reference.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -456,9 +462,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8962868C1FC8C56100E9D825 /* NetworkLayer.swift in Sources */,
+				891984191FCA281B00DE8233 /* MetricData.swift in Sources */,
 				8925F6301FC9F2B6003D39C3 /* UIImage+UIColor.swift in Sources */,
 				8925F6341FC9F458003D39C3 /* RootNC.swift in Sources */,
 				8925F6291FC9EC6A003D39C3 /* DashboardVC.swift in Sources */,
+				891984171FCA27DD00DE8233 /* Reference.swift in Sources */,
 				89987B3A1FC9E0DC00DF1451 /* RootTBC.swift in Sources */,
 				8925F6261FC9E7CE003D39C3 /* R.generated.swift in Sources */,
 				8962868E1FC8C64A00E9D825 /* Endpoints.swift in Sources */,
