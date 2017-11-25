@@ -2,6 +2,9 @@ platform :ios, '11.0'
 
 target 'junk-robot64-ios' do
   use_frameworks!
+  
   pod 'Charts'
   pod 'SnapKit'
+  pod 'SwiftyJSON'
+  pod 'R.swift'
 end

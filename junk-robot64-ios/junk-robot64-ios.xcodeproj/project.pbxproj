@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8925F6261FC9E7CE003D39C3 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F6251FC9E7CD003D39C3 /* R.generated.swift */; };
+		8962868C1FC8C56100E9D825 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962868B1FC8C56100E9D825 /* NetworkLayer.swift */; };
+		8962868E1FC8C64A00E9D825 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962868D1FC8C64A00E9D825 /* Endpoints.swift */; };
+		89987B3A1FC9E0DC00DF1451 /* RootTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89987B391FC9E0DC00DF1451 /* RootTBC.swift */; };
 		89CAB34F1FC8B0C000E496EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CAB34E1FC8B0C000E496EA /* AppDelegate.swift */; };
-		89CAB3541FC8B0C000E496EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CAB3521FC8B0C000E496EA /* Main.storyboard */; };
 		89CAB3561FC8B0C000E496EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89CAB3551FC8B0C000E496EA /* Assets.xcassets */; };
 		89CAB3591FC8B0C000E496EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CAB3571FC8B0C000E496EA /* LaunchScreen.storyboard */; };
 		89CAB3641FC8B0C000E496EA /* junk_robot64_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CAB3631FC8B0C000E496EA /* junk_robot64_iosTests.swift */; };
-		89CAB3731FC8B30300E496EA /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CAB3721FC8B30300E496EA /* TestVC.swift */; };
 		AD3EDFABCCBA02774AB2E07D /* Pods_junk_robot64_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BFF426E4E829A1E2239A11 /* Pods_junk_robot64_ios.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,16 +31,18 @@
 /* Begin PBXFileReference section */
 		5B0DEDE5B215075C316C6562 /* Pods-junk-robot64-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-junk-robot64-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-junk-robot64-ios/Pods-junk-robot64-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		80399537AB78032F69695501 /* Pods-junk-robot64-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-junk-robot64-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-junk-robot64-ios/Pods-junk-robot64-ios.release.xcconfig"; sourceTree = "<group>"; };
+		8925F6251FC9E7CD003D39C3 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		8962868B1FC8C56100E9D825 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		8962868D1FC8C64A00E9D825 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		89987B391FC9E0DC00DF1451 /* RootTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTBC.swift; sourceTree = "<group>"; };
 		89CAB34B1FC8B0C000E496EA /* junk-robot64-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "junk-robot64-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CAB34E1FC8B0C000E496EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89CAB3531FC8B0C000E496EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89CAB3551FC8B0C000E496EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89CAB3581FC8B0C000E496EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89CAB35A1FC8B0C000E496EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89CAB35F1FC8B0C000E496EA /* junk-robot64-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "junk-robot64-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CAB3631FC8B0C000E496EA /* junk_robot64_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = junk_robot64_iosTests.swift; sourceTree = "<group>"; };
 		89CAB3651FC8B0C000E496EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89CAB3721FC8B30300E496EA /* TestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
 		D1BFF426E4E829A1E2239A11 /* Pods_junk_robot64_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_junk_robot64_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -76,6 +80,39 @@
 				D1BFF426E4E829A1E2239A11 /* Pods_junk_robot64_ios.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		896286891FC8C54400E9D825 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8962868A1FC8C54E00E9D825 /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8962868A1FC8C54E00E9D825 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8962868B1FC8C56100E9D825 /* NetworkLayer.swift */,
+				8962868D1FC8C64A00E9D825 /* Endpoints.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		89987B361FC9E09700DF1451 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				89987B371FC9E09C00DF1451 /* Root */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		89987B371FC9E09C00DF1451 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				89987B391FC9E0DC00DF1451 /* RootTBC.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 		89CAB3421FC8B0C000E496EA = {
@@ -120,9 +157,9 @@
 		89CAB36E1FC8B16800E496EA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				89CAB3521FC8B0C000E496EA /* Main.storyboard */,
 				89CAB3551FC8B0C000E496EA /* Assets.xcassets */,
 				89CAB3571FC8B0C000E496EA /* LaunchScreen.storyboard */,
+				8925F6251FC9E7CD003D39C3 /* R.generated.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -139,17 +176,10 @@
 		89CAB3701FC8B2C700E496EA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				89CAB3711FC8B2F200E496EA /* Controllers */,
+				89987B361FC9E09700DF1451 /* Modules */,
+				896286891FC8C54400E9D825 /* Services */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		89CAB3711FC8B2F200E496EA /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				89CAB3721FC8B30300E496EA /* TestVC.swift */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +190,7 @@
 			buildConfigurationList = 89CAB3681FC8B0C000E496EA /* Build configuration list for PBXNativeTarget "junk-robot64-ios" */;
 			buildPhases = (
 				9828F9042C5513384ABCA5DB /* [CP] Check Pods Manifest.lock */,
+				8925F6241FC9E74D003D39C3 /* Run Script */,
 				89CAB3471FC8B0C000E496EA /* Sources */,
 				89CAB3481FC8B0C000E496EA /* Frameworks */,
 				89CAB3491FC8B0C000E496EA /* Resources */,
@@ -240,7 +271,6 @@
 			files = (
 				89CAB3591FC8B0C000E496EA /* LaunchScreen.storyboard in Resources */,
 				89CAB3561FC8B0C000E496EA /* Assets.xcassets in Resources */,
-				89CAB3541FC8B0C000E496EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,17 +292,35 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-junk-robot64-ios/Pods-junk-robot64-ios-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-junk-robot64-ios/Pods-junk-robot64-ios-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		8925F6241FC9E74D003D39C3 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/junk-robot64-ios/Resources\"";
 		};
 		9828F9042C5513384ABCA5DB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -314,7 +362,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89CAB3731FC8B30300E496EA /* TestVC.swift in Sources */,
+				8962868C1FC8C56100E9D825 /* NetworkLayer.swift in Sources */,
+				89987B3A1FC9E0DC00DF1451 /* RootTBC.swift in Sources */,
+				8925F6261FC9E7CE003D39C3 /* R.generated.swift in Sources */,
+				8962868E1FC8C64A00E9D825 /* Endpoints.swift in Sources */,
 				89CAB34F1FC8B0C000E496EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,14 +389,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		89CAB3521FC8B0C000E496EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				89CAB3531FC8B0C000E496EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		89CAB3571FC8B0C000E496EA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -476,7 +519,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "robot64.junk-robot64-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -492,7 +535,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "robot64.junk-robot64-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
