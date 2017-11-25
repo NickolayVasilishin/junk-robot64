@@ -2,6 +2,7 @@ platform :ios, '11.0'
 
 target 'junk-robot64-ios' do
   use_frameworks!
+  inhibit_all_warnings!
   
   pod 'Charts'
   pod 'SnapKit'
