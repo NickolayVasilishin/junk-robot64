@@ -1,0 +1,26 @@
+diabetes_medications.medication_id,diabetes_medications.diabetic_id,diabetes_medications.atc_koodi,diabetes_medications.atc_description,diabetes_medications.atc_substance,diabetes_medications.trade_name,diabetes_medications.prescription_date,diabetes_medications.strength,diabetes_medications.dosage,diabetes_medications.medium_type_fi,diabetes_patients.diabetic_id,diabetes_patients.person_id,diabetes_patients.gender,diabetes_patients.date_of_birth,diabetes_patients.date_of_death,diabetes_patients.municipality_code,diabetes_patients.population_density,diabetes_patients.postal_code
+721970,43,H02AB06,prednisoloni,prednisoloni,PREDNISOLON,2017-04-08,20 mg,40.00000 MG,"tabl, suun kautta, nieltÃ¤vÃ¤ksi",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+922806,43,B01AA03,varfariini,varfariininatrium,MAREVAN FORTE,2011-11-26,5 mg," ","tabl, suun kautta, nieltÃ¤vÃ¤ksi",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+131478,43,B01AA03,varfariini,varfariininatrium,MAREVAN FORTE,2013-10-21,5 mg,100 kpl,tabletti,43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+123312,43,N05AD01,haloperidoli,haloperidoli,SERENASE,2014-02-17,5 mg/ml," ","inj.neste, lihaksen sisÃ¤inen",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+1451230,43,S01BA04,prednisoloni,prednisoloniasetaatti,PRED FORTE,2012-12-10,10 mg/ml,5 ml,"silmÃ¤tipat, suspensio",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+1419375,43,J01DB01,kefaleksiini,kefaleksiinimonohydraatti,KEFEXIN,2013-12-14,500 mg,20 fol,"tabletti, kalvopÃ¤Ã¤llysteinen",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+591620,43,M04AA01,allopurinoli,allopurinoli,APURIN SANDOZ,2016-05-26,300 mg,,tabletti,43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+49749,43,N05CF01,tsopikloni,tsopikloni,IMOVANE,2010-11-04,7.5 mg," MG","tabl, suu",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+605278,43,C07AB07,bisoprololi,bisoprololifumaraatti,BISOPROACT,2013-07-03,"2,5 mg",2.50000 MG,"tabl, suun kautta, nieltÃ¤vÃ¤ksi",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+160124,43,A10AE05,detemirinsuliini,ihmisinsuliini,LEVEMIR FLEXPEN,2012-02-11,100 U/ml," ","inj.neste, ihon alle",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+578593,43,C03DA01,spironolaktoni,spironolaktoni,SPIRESIS,2015-03-02,25 mg,12.50000 MG,"tabl, suu",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+26375,43,C03CA01,furosemidi,furosemidi,FURESIS,2016-01-12,10 mg/ml,10.00000 MG,"inj.neste, laskimoon",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+786209,43,C03CA01,furosemidi,furosemidi,FURESIS,2010-08-21,40 mg," MG","tabl, suun kautta, nieltÃ¤vÃ¤ksi",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+739742,43,N02BE01,parasetamoli,parasetamoli,PAMOL,2011-07-17,500 mg,500.00000 MG,"poretabl, suun kautta, nieltÃ¤vÃ¤ksi",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+157394,43,R05FA02,"opiumjohdokset ja ekspektorantit, lukuun ottamatta mukolyyttejÃ¤","kodeiinifosfaattihemihydraatti,efedriinihydrokloridi,difenhydramiinihydrokloridi,kokillaanauute",CODESAN COMP,2013-11-20,-,10.00000 ML,"oralliuos, suun kautta, nieltÃ¤vÃ¤ksi",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+329108,43,B01AC04,klopidogreeli,klopidogreeli,PLAVIX,2010-09-08,75 mg,75.00000 MG,"tabl, suun kautta, nieltÃ¤vÃ¤ksi",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+169071,43,J01XA01,vankomysiini,vankomysiinihydrokloridi,VANCOMYCIN HOSPIRA,2012-12-22,1 g," MG","inf.ka, laskimoon",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+919532,43,N02BE01,parasetamoli,parasetamoli,PARA-TABS,2014-10-21,1 g,1.00000 G,"tabl, suun kautta, nieltÃ¤vÃ¤ksi",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+685229,43,A10BA02,metformiini,metformiinihydrokloridi,DIFORMIN RETARD,2012-04-24,1 g,1.00000 G,"depottabl, suun kautta, nieltÃ¤vÃ¤ksi",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+1458604,43,N02AA59,"kodeiini, yhdistelmÃ¤valmisteet","parasetamoli,kodeiinifosfaattihemihydraatti",PANACOD,2010-12-25,500/30 mg,50 fol,tabletti,43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+1095209,43,A11AA04,vitamiinien ja hivenaineiden yhdistelmÃ¤valmisteet,"A-vitamiini,D3-vitamiini,tiamiini,riboflaviini,niasiini,pyridoksiini,pantoteenihappo,foolihappo,syanokobalamiini,askorbiinihappo,E-vitamiini,sinkki,kupari,seleeni,kromi,magnesium,mangaani,jodi,kalsiumi",MULTITABS SPECIAL,2012-10-28,-,1.00000 TABLETTI,"tabl, suun kautta, nieltÃ¤vÃ¤ksi",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+1436795,43,N05BA01,diatsepaami,diatsepaami,DIAPAM,2012-10-05,10 mg,10.00000 MG,"tabl, suun kautta",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+61756,43,C03CA01,furosemidi,furosemidi,FURESIS,2012-10-26,40 mg," MG","tabl, suun kautta, nieltÃ¤vÃ¤ksi",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+1462006,43,J01FF01,klindamysiini,klindamysiinihydrikodoni,oksikodonihydrokloridi,OXANEST,2014-07-15,10 mg/ml," MG","inj.neste, laskimoon",43,100940-3KE5,M,1949-08-21,,019,41.94,21380
+995170,43,C10AA01,simvastatiini,simvastatiini,SIMVASTATI
