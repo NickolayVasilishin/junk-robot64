@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		891984151FCA1F5C00DE8233 /* MetricCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891984141FCA1F5C00DE8233 /* MetricCell.swift */; };
 		8925F6261FC9E7CE003D39C3 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F6251FC9E7CD003D39C3 /* R.generated.swift */; };
 		8925F6291FC9EC6A003D39C3 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F6281FC9EC6A003D39C3 /* DashboardVC.swift */; };
 		8925F62D1FC9EEDF003D39C3 /* UIColor+MainColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F62C1FC9EEDF003D39C3 /* UIColor+MainColors.swift */; };
@@ -14,6 +15,7 @@
 		8925F6341FC9F458003D39C3 /* RootNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F6331FC9F458003D39C3 /* RootNC.swift */; };
 		8925F63A1FCA055D003D39C3 /* EndpointsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F6391FCA055D003D39C3 /* EndpointsTests.swift */; };
 		8925F63D1FCA0D7E003D39C3 /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F63C1FCA0D7E003D39C3 /* Metric.swift */; };
+		8925F63F1FCA0EE4003D39C3 /* MetricsDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F63E1FCA0EE4003D39C3 /* MetricsDataProvider.swift */; };
 		8962868C1FC8C56100E9D825 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962868B1FC8C56100E9D825 /* NetworkLayer.swift */; };
 		8962868E1FC8C64A00E9D825 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962868D1FC8C64A00E9D825 /* Endpoints.swift */; };
 		89987B3A1FC9E0DC00DF1451 /* RootTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89987B391FC9E0DC00DF1451 /* RootTBC.swift */; };
@@ -36,6 +38,7 @@
 /* Begin PBXFileReference section */
 		5B0DEDE5B215075C316C6562 /* Pods-junk-robot64-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-junk-robot64-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-junk-robot64-ios/Pods-junk-robot64-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		80399537AB78032F69695501 /* Pods-junk-robot64-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-junk-robot64-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-junk-robot64-ios/Pods-junk-robot64-ios.release.xcconfig"; sourceTree = "<group>"; };
+		891984141FCA1F5C00DE8233 /* MetricCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCell.swift; sourceTree = "<group>"; };
 		8925F6251FC9E7CD003D39C3 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		8925F6281FC9EC6A003D39C3 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
 		8925F62C1FC9EEDF003D39C3 /* UIColor+MainColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+MainColors.swift"; sourceTree = "<group>"; };
@@ -43,6 +46,7 @@
 		8925F6331FC9F458003D39C3 /* RootNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNC.swift; sourceTree = "<group>"; };
 		8925F6391FCA055D003D39C3 /* EndpointsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointsTests.swift; sourceTree = "<group>"; };
 		8925F63C1FCA0D7E003D39C3 /* Metric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metric.swift; sourceTree = "<group>"; };
+		8925F63E1FCA0EE4003D39C3 /* MetricsDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsDataProvider.swift; sourceTree = "<group>"; };
 		8962868B1FC8C56100E9D825 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
 		8962868D1FC8C64A00E9D825 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		89987B391FC9E0DC00DF1451 /* RootTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTBC.swift; sourceTree = "<group>"; };
@@ -92,10 +96,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		891984131FCA1E1F00DE8233 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				891984141FCA1F5C00DE8233 /* MetricCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		8925F6271FC9EC56003D39C3 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				891984131FCA1E1F00DE8233 /* Cells */,
 				8925F6281FC9EC6A003D39C3 /* DashboardVC.swift */,
+				8925F63E1FCA0EE4003D39C3 /* MetricsDataProvider.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -448,9 +462,11 @@
 				89987B3A1FC9E0DC00DF1451 /* RootTBC.swift in Sources */,
 				8925F6261FC9E7CE003D39C3 /* R.generated.swift in Sources */,
 				8962868E1FC8C64A00E9D825 /* Endpoints.swift in Sources */,
+				891984151FCA1F5C00DE8233 /* MetricCell.swift in Sources */,
 				8925F63D1FCA0D7E003D39C3 /* Metric.swift in Sources */,
 				8925F62D1FC9EEDF003D39C3 /* UIColor+MainColors.swift in Sources */,
 				89CAB34F1FC8B0C000E496EA /* AppDelegate.swift in Sources */,
+				8925F63F1FCA0EE4003D39C3 /* MetricsDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +613,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CJH24N557;
 				INFOPLIST_FILE = "$(SRCROOT)/junk-robot64-ios/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -613,6 +630,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CJH24N557;
 				INFOPLIST_FILE = "$(SRCROOT)/junk-robot64-ios/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
