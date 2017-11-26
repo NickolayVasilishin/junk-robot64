@@ -7,11 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		891984151FCA1F5C00DE8233 /* MetricCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891984141FCA1F5C00DE8233 /* MetricCell.swift */; };
+		891984171FCA27DD00DE8233 /* Reference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891984161FCA27DD00DE8233 /* Reference.swift */; };
+		891984191FCA281B00DE8233 /* MetricData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891984181FCA281B00DE8233 /* MetricData.swift */; };
+		8925F6261FC9E7CE003D39C3 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F6251FC9E7CD003D39C3 /* R.generated.swift */; };
+		8925F6291FC9EC6A003D39C3 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F6281FC9EC6A003D39C3 /* DashboardVC.swift */; };
+		8925F62D1FC9EEDF003D39C3 /* UIColor+MainColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F62C1FC9EEDF003D39C3 /* UIColor+MainColors.swift */; };
+		8925F6301FC9F2B6003D39C3 /* UIImage+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F62F1FC9F2B6003D39C3 /* UIImage+UIColor.swift */; };
+		8925F6341FC9F458003D39C3 /* RootNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F6331FC9F458003D39C3 /* RootNC.swift */; };
+		8925F63A1FCA055D003D39C3 /* EndpointsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F6391FCA055D003D39C3 /* EndpointsTests.swift */; };
+		8925F63D1FCA0D7E003D39C3 /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F63C1FCA0D7E003D39C3 /* Metric.swift */; };
+		8925F63F1FCA0EE4003D39C3 /* MetricsDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F63E1FCA0EE4003D39C3 /* MetricsDataProvider.swift */; };
+		892B7BD61FCA542E008FF5F3 /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892B7BD51FCA542E008FF5F3 /* DateValueFormatter.swift */; };
+		8962868C1FC8C56100E9D825 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962868B1FC8C56100E9D825 /* NetworkLayer.swift */; };
+		8962868E1FC8C64A00E9D825 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962868D1FC8C64A00E9D825 /* Endpoints.swift */; };
+		89987B3A1FC9E0DC00DF1451 /* RootTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89987B391FC9E0DC00DF1451 /* RootTBC.swift */; };
 		89CAB34F1FC8B0C000E496EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CAB34E1FC8B0C000E496EA /* AppDelegate.swift */; };
-		89CAB3541FC8B0C000E496EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CAB3521FC8B0C000E496EA /* Main.storyboard */; };
 		89CAB3561FC8B0C000E496EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89CAB3551FC8B0C000E496EA /* Assets.xcassets */; };
 		89CAB3591FC8B0C000E496EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CAB3571FC8B0C000E496EA /* LaunchScreen.storyboard */; };
-		89CAB3641FC8B0C000E496EA /* junk_robot64_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CAB3631FC8B0C000E496EA /* junk_robot64_iosTests.swift */; };
 		AD3EDFABCCBA02774AB2E07D /* Pods_junk_robot64_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BFF426E4E829A1E2239A11 /* Pods_junk_robot64_ios.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,14 +41,27 @@
 /* Begin PBXFileReference section */
 		5B0DEDE5B215075C316C6562 /* Pods-junk-robot64-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-junk-robot64-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-junk-robot64-ios/Pods-junk-robot64-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		80399537AB78032F69695501 /* Pods-junk-robot64-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-junk-robot64-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-junk-robot64-ios/Pods-junk-robot64-ios.release.xcconfig"; sourceTree = "<group>"; };
+		891984141FCA1F5C00DE8233 /* MetricCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCell.swift; sourceTree = "<group>"; };
+		891984161FCA27DD00DE8233 /* Reference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reference.swift; sourceTree = "<group>"; };
+		891984181FCA281B00DE8233 /* MetricData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricData.swift; sourceTree = "<group>"; };
+		8925F6251FC9E7CD003D39C3 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		8925F6281FC9EC6A003D39C3 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		8925F62C1FC9EEDF003D39C3 /* UIColor+MainColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+MainColors.swift"; sourceTree = "<group>"; };
+		8925F62F1FC9F2B6003D39C3 /* UIImage+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+UIColor.swift"; sourceTree = "<group>"; };
+		8925F6331FC9F458003D39C3 /* RootNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNC.swift; sourceTree = "<group>"; };
+		8925F6391FCA055D003D39C3 /* EndpointsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointsTests.swift; sourceTree = "<group>"; };
+		8925F63C1FCA0D7E003D39C3 /* Metric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metric.swift; sourceTree = "<group>"; };
+		8925F63E1FCA0EE4003D39C3 /* MetricsDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsDataProvider.swift; sourceTree = "<group>"; };
+		892B7BD51FCA542E008FF5F3 /* DateValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
+		8962868B1FC8C56100E9D825 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		8962868D1FC8C64A00E9D825 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		89987B391FC9E0DC00DF1451 /* RootTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTBC.swift; sourceTree = "<group>"; };
 		89CAB34B1FC8B0C000E496EA /* junk-robot64-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "junk-robot64-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CAB34E1FC8B0C000E496EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89CAB3531FC8B0C000E496EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89CAB3551FC8B0C000E496EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89CAB3581FC8B0C000E496EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89CAB35A1FC8B0C000E496EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89CAB35F1FC8B0C000E496EA /* junk-robot64-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "junk-robot64-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89CAB3631FC8B0C000E496EA /* junk_robot64_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = junk_robot64_iosTests.swift; sourceTree = "<group>"; };
 		89CAB3651FC8B0C000E496EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1BFF426E4E829A1E2239A11 /* Pods_junk_robot64_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_junk_robot64_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -76,6 +102,127 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		891984131FCA1E1F00DE8233 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				891984141FCA1F5C00DE8233 /* MetricCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8925F6271FC9EC56003D39C3 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				891984131FCA1E1F00DE8233 /* Cells */,
+				8925F6281FC9EC6A003D39C3 /* DashboardVC.swift */,
+				8925F63E1FCA0EE4003D39C3 /* MetricsDataProvider.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		8925F62A1FC9EEBE003D39C3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8925F62B1FC9EEC6003D39C3 /* UIColor */,
+				8925F62E1FC9F299003D39C3 /* UIImage */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8925F62B1FC9EEC6003D39C3 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				8925F62C1FC9EEDF003D39C3 /* UIColor+MainColors.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		8925F62E1FC9F299003D39C3 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				8925F62F1FC9F2B6003D39C3 /* UIImage+UIColor.swift */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		8925F6351FCA052A003D39C3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8925F6361FCA0538003D39C3 /* Services */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8925F6361FCA0538003D39C3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8925F6371FCA053E003D39C3 /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8925F6371FCA053E003D39C3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8925F6391FCA055D003D39C3 /* EndpointsTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8925F63B1FCA0D6D003D39C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8925F63C1FCA0D7E003D39C3 /* Metric.swift */,
+				891984181FCA281B00DE8233 /* MetricData.swift */,
+				891984161FCA27DD00DE8233 /* Reference.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		892B7BD41FCA541C008FF5F3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				892B7BD51FCA542E008FF5F3 /* DateValueFormatter.swift */,
+			);
+			name = Components;
+			path = Services/Components;
+			sourceTree = "<group>";
+		};
+		896286891FC8C54400E9D825 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8962868A1FC8C54E00E9D825 /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8962868A1FC8C54E00E9D825 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8962868B1FC8C56100E9D825 /* NetworkLayer.swift */,
+				8962868D1FC8C64A00E9D825 /* Endpoints.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		89987B361FC9E09700DF1451 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8925F6271FC9EC56003D39C3 /* Dashboard */,
+				89987B371FC9E09C00DF1451 /* Root */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		89987B371FC9E09C00DF1451 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				8925F6331FC9F458003D39C3 /* RootNC.swift */,
+				89987B391FC9E0DC00DF1451 /* RootTBC.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
 		89CAB3421FC8B0C000E496EA = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +246,9 @@
 		89CAB34D1FC8B0C000E496EA /* junk-robot64-ios */ = {
 			isa = PBXGroup;
 			children = (
-				89CAB36F1FC8B17500E496EA /* Supporting Files */,
 				89CAB36E1FC8B16800E496EA /* Resources */,
+				89CAB3701FC8B2C700E496EA /* Sources */,
+				89CAB36F1FC8B17500E496EA /* Supporting Files */,
 			);
 			path = "junk-robot64-ios";
 			sourceTree = "<group>";
@@ -108,7 +256,7 @@
 		89CAB3621FC8B0C000E496EA /* junk-robot64-iosTests */ = {
 			isa = PBXGroup;
 			children = (
-				89CAB3631FC8B0C000E496EA /* junk_robot64_iosTests.swift */,
+				8925F6351FCA052A003D39C3 /* Sources */,
 				89CAB3651FC8B0C000E496EA /* Info.plist */,
 			);
 			path = "junk-robot64-iosTests";
@@ -117,9 +265,9 @@
 		89CAB36E1FC8B16800E496EA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				89CAB3521FC8B0C000E496EA /* Main.storyboard */,
 				89CAB3551FC8B0C000E496EA /* Assets.xcassets */,
 				89CAB3571FC8B0C000E496EA /* LaunchScreen.storyboard */,
+				8925F6251FC9E7CD003D39C3 /* R.generated.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -133,6 +281,18 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		89CAB3701FC8B2C700E496EA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				892B7BD41FCA541C008FF5F3 /* Components */,
+				8925F62A1FC9EEBE003D39C3 /* Extension */,
+				8925F63B1FCA0D6D003D39C3 /* Model */,
+				89987B361FC9E09700DF1451 /* Modules */,
+				896286891FC8C54400E9D825 /* Services */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,6 +301,7 @@
 			buildConfigurationList = 89CAB3681FC8B0C000E496EA /* Build configuration list for PBXNativeTarget "junk-robot64-ios" */;
 			buildPhases = (
 				9828F9042C5513384ABCA5DB /* [CP] Check Pods Manifest.lock */,
+				8925F6241FC9E74D003D39C3 /* Run Script */,
 				89CAB3471FC8B0C000E496EA /* Sources */,
 				89CAB3481FC8B0C000E496EA /* Frameworks */,
 				89CAB3491FC8B0C000E496EA /* Resources */,
@@ -221,7 +382,6 @@
 			files = (
 				89CAB3591FC8B0C000E496EA /* LaunchScreen.storyboard in Resources */,
 				89CAB3561FC8B0C000E496EA /* Assets.xcassets in Resources */,
-				89CAB3541FC8B0C000E496EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,17 +403,35 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-junk-robot64-ios/Pods-junk-robot64-ios-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-junk-robot64-ios/Pods-junk-robot64-ios-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		8925F6241FC9E74D003D39C3 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/junk-robot64-ios/Resources\"";
 		};
 		9828F9042C5513384ABCA5DB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -295,7 +473,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892B7BD61FCA542E008FF5F3 /* DateValueFormatter.swift in Sources */,
+				8962868C1FC8C56100E9D825 /* NetworkLayer.swift in Sources */,
+				891984191FCA281B00DE8233 /* MetricData.swift in Sources */,
+				8925F6301FC9F2B6003D39C3 /* UIImage+UIColor.swift in Sources */,
+				8925F6341FC9F458003D39C3 /* RootNC.swift in Sources */,
+				8925F6291FC9EC6A003D39C3 /* DashboardVC.swift in Sources */,
+				891984171FCA27DD00DE8233 /* Reference.swift in Sources */,
+				89987B3A1FC9E0DC00DF1451 /* RootTBC.swift in Sources */,
+				8925F6261FC9E7CE003D39C3 /* R.generated.swift in Sources */,
+				8962868E1FC8C64A00E9D825 /* Endpoints.swift in Sources */,
+				891984151FCA1F5C00DE8233 /* MetricCell.swift in Sources */,
+				8925F63D1FCA0D7E003D39C3 /* Metric.swift in Sources */,
+				8925F62D1FC9EEDF003D39C3 /* UIColor+MainColors.swift in Sources */,
 				89CAB34F1FC8B0C000E496EA /* AppDelegate.swift in Sources */,
+				8925F63F1FCA0EE4003D39C3 /* MetricsDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +495,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89CAB3641FC8B0C000E496EA /* junk_robot64_iosTests.swift in Sources */,
+				8925F63A1FCA055D003D39C3 /* EndpointsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,14 +510,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		89CAB3521FC8B0C000E496EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				89CAB3531FC8B0C000E496EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		89CAB3571FC8B0C000E496EA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -450,12 +634,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CJH24N557;
 				INFOPLIST_FILE = "$(SRCROOT)/junk-robot64-ios/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "robot64.junk-robot64-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,12 +651,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CJH24N557;
 				INFOPLIST_FILE = "$(SRCROOT)/junk-robot64-ios/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "robot64.junk-robot64-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -6,9 +6,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.layer.cornerRadius = 6.0
+        self.window?.clipsToBounds = true
+        self.window?.rootViewController = RootTBC()
+        self.window?.makeKeyAndVisible()
+
+        UINavigationBar.appearance().tintColor = .white
+        UINavigationBar.appearance().titleTextAttributes = [
+            NSAttributedStringKey.foregroundColor: UIColor.white
+        ]
 
         return true
     }
 
 }
-
