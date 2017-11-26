@@ -19,7 +19,7 @@ final class RootNC: UINavigationController {
     }
 
     private func commonInit() {
-        self.navigationBar.setBackgroundImage(UIImage(color: .mainColor), for: .default)
+        self.navigationBar.setBackgroundImage(UIImage(color: .mainTintColor), for: .default)
     }
 
 }

@@ -39,12 +39,37 @@ class MetricCell: UITableViewCell {
         self.chartView.frame = self.roundedView.bounds
     }
 
-    func setData(_ someData: [MetricData]) {
-        let values = someData.map { ChartDataEntry(x: $0.date.timeIntervalSince1970, y: $0.value) }
-        let set = LineChartDataSet(values: values, label: "Test dataset")
-        let data = LineChartData(dataSet: set)
+    func setData(_ someData: [MetricData], title: String, reference: Reference) {
+        let values = someData.map { ChartDataEntry(x: $0.date.timeIntervalSince1970,
+                                                   y: $0.value) }
+        let set = LineChartDataSet(values: values, label: title)
+        set.axisDependency = .left
+        set.setColor(.mainTintColor)
+        set.lineWidth = 1.5
+        set.drawCirclesEnabled = false
+        set.drawValuesEnabled = false
+        set.fillColor = .mainTintColor
+        set.drawCircleHoleEnabled = false
 
+        let data = LineChartData(dataSet: set)
         self.chartView.data = data
+
+        let ll1 = ChartLimitLine(limit: reference.max)
+        ll1.lineWidth = 1
+        ll1.lineDashLengths = [5, 5]
+
+        let ll2 = ChartLimitLine(limit: reference.min)
+        ll2.lineWidth = 1
+        ll2.lineDashLengths = [5, 5]
+
+        let leftAxis = chartView.leftAxis
+        leftAxis.removeAllLimitLines()
+        leftAxis.addLimitLine(ll1)
+        leftAxis.addLimitLine(ll2)
+        leftAxis.drawLimitLinesBehindDataEnabled = true
+
+        let xAxis = chartView.xAxis
+        xAxis.valueFormatter = DateValueFormatter()
     }
 
 }
@@ -53,7 +78,7 @@ private extension MetricCell {
 
     struct Constants {
         static let hinset: CGFloat = 8.0
-        static let vInset: CGFloat = 4.0
+        static let vInset: CGFloat = 8.0
     }
 
     func addChart() {
@@ -64,57 +89,14 @@ private extension MetricCell {
         chartView.setScaleEnabled(false)
         chartView.pinchZoomEnabled = false
         chartView.isUserInteractionEnabled = false
+        chartView.drawGridBackgroundEnabled = false
+        chartView.gridBackgroundColor = .clear
+        chartView.legend.form = .line
+        chartView.legend.enabled = true
+        chartView.rightAxis.enabled = false
 
         self.roundedView.addSubview(chartView)
         self.chartView = chartView
-
-        //        // x-axis limit line
-        //        let llXAxis = ChartLimitLine(limit: 10, label: "Index 10")
-        //        llXAxis.lineWidth = 4
-        //        llXAxis.lineDashLengths = [10, 10, 0]
-        //        llXAxis.labelPosition = .rightBottom
-        //        llXAxis.valueFont = .systemFont(ofSize: 10)
-        //
-        //        chartView.xAxis.gridLineDashLengths = [10, 10]
-        //        chartView.xAxis.gridLineDashPhase = 0
-        //
-        //        let ll1 = ChartLimitLine(limit: 150, label: "Upper Limit")
-        //        ll1.lineWidth = 4
-        //        ll1.lineDashLengths = [5, 5]
-        //        ll1.labelPosition = .rightTop
-        //        ll1.valueFont = .systemFont(ofSize: 10)
-        //
-        //        let ll2 = ChartLimitLine(limit: -30, label: "Lower Limit")
-        //        ll2.lineWidth = 4
-        //        ll2.lineDashLengths = [5,5]
-        //        ll2.labelPosition = .rightBottom
-        //        ll2.valueFont = .systemFont(ofSize: 10)
-        //
-        //        let leftAxis = chartView.leftAxis
-        //        leftAxis.removeAllLimitLines()
-        //        leftAxis.addLimitLine(ll1)
-        //        leftAxis.addLimitLine(ll2)
-        //        leftAxis.axisMaximum = 200
-        //        leftAxis.axisMinimum = -50
-        //        leftAxis.gridLineDashLengths = [5, 5]
-        //        leftAxis.drawLimitLinesBehindDataEnabled = true
-        //
-        //        chartView.rightAxis.enabled = false
-        //
-        //        //[_chartView.viewPortHandler setMaximumScaleY: 2.f];
-        //        //[_chartView.viewPortHandler setMaximumScaleX: 2.f];
-        //
-        //        let marker = BalloonMarker(color: UIColor(white: 180/255, alpha: 1),
-        //                                   font: .systemFont(ofSize: 12),
-        //                                   textColor: .white,
-        //                                   insets: UIEdgeInsets(top: 8, left: 8, bottom: 20, right: 8))
-        //        marker.chartView = chartView
-        //        marker.minimumSize = CGSize(width: 80, height: 40)
-        //        chartView.marker = marker
-        //
-        //        chartView.legend.form = .line
-        //
-        //        chartView.animate(xAxisDuration: 2.5)
     }
 
 }

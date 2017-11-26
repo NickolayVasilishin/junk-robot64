@@ -17,7 +17,8 @@ final class MetricsDataProvider: NSObject, UITableViewDataSource, UITableViewDel
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: Constants.cellReuseIdentifier,
                                                  for: indexPath) as! MetricCell
-        cell.setData(self.metrics![indexPath.row].dataset)
+        let metric = self.metrics![indexPath.row]
+        cell.setData(metric.dataset, title: metric.name, reference: metric.reference)
 
         return cell
     }
@@ -35,6 +36,7 @@ private extension MetricsDataProvider {
     struct Constants {
         static let cellHeight: CGFloat = 200.0
         static let cellReuseIdentifier = "com.robot64.metric-reuse-id"
+        static let headerFooterReuseIdentifier = "com.robot64.header-footer-reuse-id"
     }
 
 }
