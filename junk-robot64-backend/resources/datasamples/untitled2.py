@@ -7,6 +7,8 @@ Created on Sat Nov 25 12:29:35 2017
 """
 
 import pandas as pd
+import numpy as np
+
 medications_path = '/home/nikolay/study/junction/junk-robot64/junk-robot64-backend/resources/datasamples/medications_43'
 labs_path = '/home/nikolay/study/junction/junk-robot64/junk-robot64-backend/resources/datasamples/labs_43'
 
@@ -23,14 +25,33 @@ diabetics_history.measurement_time = pd.to_datetime(diabetics_history.measuremen
 diabetics_history = diabetics_history.set_index('measurement_time')
 
 reshaped = diabetics_history.pivot_table(
-        values=['result', 'reference_min', 'reference_max', 'outside_ref_values'], 
+        values=['result', 'reference_min', 'reference_max', 'outside_ref_values', 'unit'], 
         index=diabetics_history.index, 
         columns='measurement_code', 
         aggfunc='first')
 
+def get_most_valuable_json(reshaped, number):
+    measurement_codes = reshaped.count().nlargest(number*4).index.get_level_values(1).unique()
+    result = {}
+    for feature, code in reshaped.columns:
+        if code in measurement_codes:
+            if code not in result:
+                result[code] = {'reference_max':None, 'reference_min':None, 'unit':None, 'data':None}
+            if feature in ['unit', 'reference_max', 'reference_min']:
+                result[code][feature] = reshaped[feature][code].loc[reshaped[feature][code].first_valid_index()]
+            else:
+                data = reshaped[feature][code].copy()
+                data.index = data.index.astype(np.int64) // 10 ** 9
+                result[code]['data'] = data.interpolate().reset_index().as_matrix()
+                
+    return result
+    
+    
+    
+    
 
 
-def pickle_model():
+def pickle_model(version):
     
     from sklearn.ensemble import RandomForestClassifier
     from sklearn.datasets import make_classification
@@ -51,8 +72,8 @@ def pickle_model():
     print(y_test)
     
     import pickle
-    with open('kek_model.pkl0', 'wb') as f:
-        pickle.dump(clf, f, protocol=0)
+    with open('kek_model.pkl-v%s' % version, 'wb') as f:
+        pickle.dump(clf, f, protocol=version)
     #from sklearn.externals import joblib
     #joblib.dump(clf, 'kek_model1.pcl') 
     """
