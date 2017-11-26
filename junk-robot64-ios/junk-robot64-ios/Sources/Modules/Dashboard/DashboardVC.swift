@@ -56,11 +56,15 @@ private extension DashboardVC {
 
     func setupUI() {
         self.setupTableView()
+        self.view.backgroundColor = .mainLightGray
     }
 
     func setupTableView() {
-        let tableView = UITableView(frame: .zero, style: .grouped)
+        let tableView = UITableView(frame: .zero, style: .plain)
         tableView.separatorStyle = .none
+        tableView.allowsSelection = false
+        tableView.backgroundColor = .mainLightGray
+        tableView.showsVerticalScrollIndicator = false
 
         self.dataProvider = MetricsDataProvider(tableView: tableView)
         tableView.dataSource = self.dataProvider

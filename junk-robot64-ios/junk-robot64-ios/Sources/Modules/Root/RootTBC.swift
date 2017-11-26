@@ -22,7 +22,7 @@ final class RootTBC: UITabBarController {
         ]
 
         self.viewControllers = vcs
-        self.tabBar.tintColor = .mainTintColor
+        self.tabBar.tintColor = .mainColor
     }
 
 }

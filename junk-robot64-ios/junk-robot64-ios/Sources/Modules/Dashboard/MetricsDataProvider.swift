@@ -17,6 +17,7 @@ final class MetricsDataProvider: NSObject, UITableViewDataSource, UITableViewDel
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: Constants.cellReuseIdentifier,
                                                  for: indexPath) as! MetricCell
+        cell.setData(self.metrics![indexPath.row].dataset)
 
         return cell
     }

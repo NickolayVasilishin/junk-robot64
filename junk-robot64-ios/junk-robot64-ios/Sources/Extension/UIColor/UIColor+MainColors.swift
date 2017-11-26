@@ -3,6 +3,8 @@ import UIKit
 extension UIColor {
 
     static let mainTintColor = UIColor(rgb: 0x008893)
+    static let mainColor = UIColor(rgb: 0x00C5D8)
+    static let mainLightGray = UIColor(rgb: 0xFAFAFA)
 
 }
 
